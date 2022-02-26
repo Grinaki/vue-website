@@ -4,6 +4,7 @@
  <div>
 <navbar/> 
 <carusel/>
+<Registration/>
  </div>
   
 </template>
@@ -11,13 +12,14 @@
 <script>
 import navbar from '@/components/navbar';
 import carusel from '@/components/carusel';
+import Registration from '@/components/Registration';
 
 export default {
   name: 'App',
   components: {
     navbar,
-    carusel
-
+    carusel,
+    Registration
   }
 }
 </script>
